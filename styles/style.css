@@ -343,3 +343,45 @@ body{
     right: 73%;
     top: 55%;
 }
+
+
+/* play games section styles */
+.play-games-container{
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 186px;
+    display: flex;
+    align-items: center;
+    gap: 290px;
+}
+
+.play-games-image-content{
+    position: relative;
+}
+
+#cat{
+    position: absolute;
+    left: 74.8%;
+    top: 62.5%;
+}
+
+.play-games-text-content{
+    h3{
+        color: rgb(11, 2, 35);
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 60px;
+        background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+        background-clip: text;     
+        span{
+            color: transparent;
+        }
+    }
+    p{
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: 24px;
+    }
+}
