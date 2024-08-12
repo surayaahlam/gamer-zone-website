@@ -178,4 +178,39 @@
     #cat{
         width: 50%;
     }
+
+
+    /* careers section styles */
+    .career-container{
+        background-image: none;
+    }
+
+    .career-content{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 120px;
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .career-text-content{
+        width: 100%;
+        h4{
+            font-size: 2.33rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+        button{
+            font-size: 1rem;
+        }
+    }
+
+    .lists>p{
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
 }

@@ -385,3 +385,65 @@ body{
         margin-top: 24px;
     }
 }
+
+
+/* careers section styles */
+.career-container{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: rgb(255, 66, 165);
+    margin-top: 243px;
+    background-image: url("../images/Group\ 65.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 120px 0;
+}
+
+.career-content{
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    img{
+        display: none;
+    }
+}
+
+.career-text-content{
+    width: 47%;
+    h4{
+        color: white;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    p{
+        color: white;
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: 24px;
+    }
+    button{
+        color: rgb(255, 66, 165);
+        background-color: white;
+        margin-top: 40px;
+    }
+}
+
+.career-list{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 97px; */
+    margin-top: 32px;
+}
+
+.lists>p{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.list-2>p{
+    text-align: right ;
+}
