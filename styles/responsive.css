@@ -46,4 +46,30 @@
     .tagline p{
        font-size: 0.915rem;
     }
+
+
+    /* we are gamer section styles */
+    .gamer-container{
+        padding: 36px 0;
+    }
+
+    .gamer-content{       
+        width: 90%;
+        flex-direction: column;
+        gap: 61px;
+        img{
+            width: 100%;
+        }
+    }
+
+    .gamer-text-content{
+        width: 90%;
+        align-items: center;
+        p{
+            text-align: center;
+        }
+        h5{
+            text-align: center;
+        }
+    }
 }

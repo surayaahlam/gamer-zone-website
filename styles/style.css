@@ -161,3 +161,54 @@ body{
 .btn-secondary{
     background-color: rgb(78, 197, 247);
 }
+
+
+/* we are gamer section styles */
+.gamer-container{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: rgb(255, 249, 252);
+    padding: 56px 0;
+}
+
+.gamer-content{       
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gamer-text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 24px;
+    h3{
+        background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+        color: transparent;
+        background-clip: text;
+        font-size: 3rem;
+        font-weight: 700; 
+    }
+    p{
+        color: rgb(83, 76, 100);
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: right;
+    }
+    h5{
+        color: rgb(83, 76, 100);
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 45px;
+        text-align: right;
+        span{
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
+}
