@@ -297,3 +297,49 @@ body{
     }
 
 }
+
+
+/* play instantly section styles */
+.play-instant-container{
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 265px;
+}
+
+.play-instant-text-content{
+    margin-left: 187px;
+    h3{
+        color: rgb(11, 2, 35);
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: right; 
+        background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+        background-clip: text;     
+        span{
+            color: transparent;
+        }
+    }
+    p{
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: right;
+        margin-top: 24px;
+    }
+}
+
+.play-instant-image-content{
+    position: relative;
+}
+
+#angel{
+    position: absolute;
+    right: 73%;
+    top: 55%;
+}
