@@ -1,3 +1,49 @@
 @media screen and (max-width: 576px){
     /* header section styles */
+    .navbar-content{
+        width: 90%;
+        flex-direction: column;
+        gap: 62px;
+
+    }
+
+    .navigation{
+        flex-direction: column;
+    }
+
+    .banner-container{
+        background-image: none;
+    }
+
+    .banner-content{
+        width: 90%;
+        flex-direction: column-reverse;
+        gap: 22px;
+    }
+
+    .banner-content>img{
+        width: 100%;
+    } 
+
+    .banner-text-content{
+        width: 100%;
+        background-image: url("../images/Group\ 14.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 50px;
+        h4{
+            font-size: 2.375rem;
+        }
+        h1{
+            font-size: 4.6375rem; 
+        }
+        button{
+            font-size: 0.85rem;
+            padding: 18px 30px;
+        }   
+    }
+    .tagline p{
+       font-size: 0.915rem;
+    }
 }

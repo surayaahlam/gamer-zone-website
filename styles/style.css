@@ -12,7 +12,16 @@ body{
 }
 
 .btn-primary{
-
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 48px;
+    background-color: rgb(255, 66, 165);
+    border: none;
+    padding: 21px 40px;
+    cursor: pointer;
+     
 }
 
 
@@ -29,7 +38,6 @@ body{
     width: 80%;
     max-width: 1440px;
     margin: 0 auto;
-    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,9 +60,7 @@ body{
     }
 }
 
-
 .navigation{
-    border: 2px solid blue;
     display: flex;
     align-items: center;
     gap: 32px;
@@ -80,6 +86,7 @@ body{
     border: none;
     border-radius: 8px;
     background-color: rgba(11, 2, 35, 0.1);
+    cursor: pointer;
     i{
         color: rgb(246, 28, 13);
         font-size: 33.92px;
@@ -92,17 +99,65 @@ body{
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    position: relative;
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
 }
 
 .banner-content{
     width: 80%;
     max-width: 1440px;
-    /* margin: 0 auto; */
-    margin-left: 240px;
-    border: 2px solid green;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    position: absolute;
-    top: 0;
+    justify-content: space-between;
+    .buttons{
+        margin-top: 40px;
+        display: flex;
+        gap: 24px;
+    }
+}
+
+.banner-text-content{
+    h4{
+        color: rgb(11, 2, 35);
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    h1{
+        background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+        font-size: 5.9375rem;
+        font-weight: 800;
+        color: transparent;
+        background-clip: text;
+    }
+}
+
+.taglines{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin-top: 24px;
+}
+
+.tagline{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    p{
+        color: rgb(83, 76, 100);
+        font-size: 1.25rem;
+        font-weight: 500; 
+    }
+    img{
+        width: 20px;
+        height: 20px;
+    }
+    i{
+        font-size: 1.125rem;
+        color:  rgb(255, 66, 165);
+    }
+}
+
+.btn-secondary{
+    background-color: rgb(78, 197, 247);
 }
