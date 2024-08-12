@@ -213,4 +213,35 @@
         font-weight: 700;
         font-size: 0.8rem;
     }
+
+
+    /* games button section styles */
+    .btn-games-content{
+        width: 90%;
+    }
+    .btn-game{
+        padding: 5px;
+        gap: 8px;
+        p{
+            font-size: 0.5rem;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .btn-game-10{
+        display: block;
+        display: flex;
+    }
+
+    .row-1{
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    .row-2{
+        display: none;
+    }
 }
